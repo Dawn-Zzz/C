@@ -366,4 +366,17 @@ namespace WindowsFormsOnThi
         }
     }
 }
+var data = db.Product.Select(p => new
+{
+    ProductCode = p.ProductCode, ProductName = p.ProductName, 
+    ProductPrice = p.ProductPrice, CatalogCode = p.Catalog.CatalogCode,
+    CatalogName = p.Catalog.CatalogName
+}).ToList();
+
+CrystalReport1 rpt = new CrystalReport1();
+rpt.SetDataSource(data);
+
+Frm_displayReport frm = new Frm_displayReport();
+frm.crystalReportViewer1.ReportSource = rpt;
+frm.ShowDialog();
 </p>

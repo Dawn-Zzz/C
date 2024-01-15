@@ -1,4 +1,4 @@
-{
+<div>
 [RegularExpression("^[a-zA-Z].*", ErrorMessage = "Ký tự đầu tiên phải là chữ cái.")]
 [RegularExpression(@"^[0-9]+$", ErrorMessage = "Chỉ được nhập số")]
 [RegularExpression(@"^.+\.jpg$", ErrorMessage = "Ảnh đại diện phải có đuôi là '.jpg'.")]
@@ -25,4 +25,4 @@ $(document).ready(function () {
         });
     });
 });
-}
+</div>

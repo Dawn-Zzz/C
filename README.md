@@ -1,4 +1,4 @@
-<div>
+<p>
 [RegularExpression("^[a-zA-Z].*", ErrorMessage = "Ký tự đầu tiên phải là chữ cái.")]
 [RegularExpression(@"^[0-9]+$", ErrorMessage = "Chỉ được nhập số")]
 [RegularExpression(@"^.+\.jpg$", ErrorMessage = "Ảnh đại diện phải có đuôi là '.jpg'.")]
@@ -83,5 +83,5 @@ $(document).ready(function () {
         @Html.ActionLink("Sửa Sản Phẩm", "SuaSanPham", new { id = Model.MaSanPham }, new { @class = "btn btn-warning" }) |
         @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
     </p>
-</div>-->
-</div>
+</div>--> 
+</p>

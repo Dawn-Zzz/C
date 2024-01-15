@@ -59,9 +59,29 @@ $(document).ready(function () {
             </div>
         </div>
     }
-
     <div class="mt-3">
         @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
     </div>
 </div>-->
+@*<div class="container" style="margin-top:150px">
+    <h2 class="mb-4">Chi Tiết Sản Phẩm</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Sản Phẩm</h4>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Tên Sản Phẩm</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.TenSanPham)</dd>
+
+            </dl>
+        </div>
+    </div>
+
+    <p class="mt-4">
+        @Html.ActionLink("Sửa Sản Phẩm", "SuaSanPham", new { id = Model.MaSanPham }, new { @class = "btn btn-warning" }) |
+        @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
+    </p>
+</div>*@
 </div>

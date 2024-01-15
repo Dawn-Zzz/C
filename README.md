@@ -63,8 +63,8 @@ $(document).ready(function () {
         @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
     </div>
 </div>-->
-@*<div class="container" style="margin-top:150px">
-   -- <h2 class="mb-4">Chi Tiết Sản Phẩm</h2>
+<!--<div class="container" style="margin-top:150px">
+   <h2 class="mb-4">Chi Tiết Sản Phẩm</h2>
 
     <div class="card">
         <div class="card-body">
@@ -83,5 +83,5 @@ $(document).ready(function () {
         @Html.ActionLink("Sửa Sản Phẩm", "SuaSanPham", new { id = Model.MaSanPham }, new { @class = "btn btn-warning" }) |
         @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
     </p>
-</div>*@
+</div>-->
 </div>

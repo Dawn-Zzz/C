@@ -25,4 +25,43 @@ $(document).ready(function () {
         });
     });
 });
+
+<!--<div class="container mt-5">
+    <h2>Sửa Sản Phẩm</h2>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Sản Phẩm</h4>
+                <hr />
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.HiddenFor(model => model.MaSanPham)
+
+                <div class="form-group row">
+                    @Html.LabelFor(model => model.TenSanPham, htmlAttributes: new { @class = "col-md-2 col-form-label" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.TenSanPham, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TenSanPham, "", new { @class = "text-danger" })
+                    </div>
+                </div>-->
+
+                <!-- Các div.form-group và input/editor khác tương tự -->
+
+                <!--<div class="form-group row">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Lưu" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="mt-3">
+        @Html.ActionLink("Quay Lại", "Index", new { @class = "btn btn-secondary" })
+    </div>
+</div>-->
 </div>

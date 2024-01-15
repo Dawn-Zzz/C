@@ -64,7 +64,7 @@ $(document).ready(function () {
     </div>
 </div>-->
 @*<div class="container" style="margin-top:150px">
-    <h2 class="mb-4">Chi Tiết Sản Phẩm</h2>
+   -- <h2 class="mb-4">Chi Tiết Sản Phẩm</h2>
 
     <div class="card">
         <div class="card-body">
